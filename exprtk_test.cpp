@@ -2158,8 +2158,8 @@ inline bool test_expression(const std::string& expression_string, const T& expec
    exprtk::polynomial<T, 18> poly08;
    exprtk::polynomial<T, 19> poly09;
    exprtk::polynomial<T,20> poly10;
-   exprtk::polynomial<T,21> poly11;
-   exprtk::polynomial<T,22> poly12;
+   exprtk::polynomial<T,10> poly11;
+   exprtk::polynomial<T, 9> poly12;
 
    symbol_table.add_function("poly01", poly01);
    symbol_table.add_function("poly02", poly02);
